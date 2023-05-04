@@ -365,8 +365,18 @@ module.exports = {
       // break-inside: auto, avoid, avoid-page, column
       // box-decoration: slice, clone
       // box: border, content
+      /* display: 
+          block, inline-block, flex, inline-flex, table, inline-table, table-caption, 
+          table-cell, table-column, table-column-group, table-footer-group,
+          table-header-group, table-row-group, table-row, flow-root, grid, inline-grid,
+          contents, list-item, hidden */
+      
+      extend: {},
+    },
+    variants: {
       extend: {},
     },
     plugins: [],
   }
-    
+  
+  
