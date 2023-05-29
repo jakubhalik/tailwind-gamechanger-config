@@ -5,6 +5,178 @@ Tailwind Gamechanger Config for extremely specific classes so u never have to wr
 module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
+    /*
+    hover:
+    focus:
+    focus-within:
+    focus-visible:
+    active:
+    visited:
+    target:
+    first:
+    last:
+    only:
+    odd:
+    even:
+    first-of-type:
+    last-of-type:
+    only-of-type:
+    empty:
+    disabled:
+    enabled:
+    checked:
+    indeterminate:
+    default:
+    required:
+    valid:
+    invalid:
+    in-range:
+    out-of-range:
+    placeholder-shown:
+    autofill:
+    read-only:
+    before:
+    after:
+    fist-letter:
+    first-line:
+    marker:
+    selection:
+    file:
+    backdrop:
+    placeholder:
+    min-[]:
+    max-sm:
+    max-md:
+    max-lg:
+    max-2xl:
+    max-[]:
+    dark:
+    portrait:
+    landscape:
+    motion-safe:
+    motion-reduce:
+    contrast-more:
+    contrast-less:
+    print:
+    supports-[]:
+    aria-checked:
+    aria-disabled:
+    aria-expanded:
+    aria-hidden:
+    aria-pressed:
+    aria-readonly:
+    aria-required:
+    aria-selected:
+    aria-[]:
+    data-[]:
+    rtl:
+    ltr:
+    open:
+    */
+    screens: {
+      '20xs': '28px',
+      '19xs': '56px',
+      '18xs': '84px',
+      '17xs': '112px',
+      '16xs': '140px',
+      '15xs': '168px',
+      '14xs': '196px',
+      '13xs': '224px',
+      '12xs': '252px',
+      '11xs': '280px',
+      '10xs': '308px',
+      '9xs': '336px',
+      '8xs': '364px',
+      '7xs': '392px',
+      '6xs': '420px',
+      '5xs': '448px',
+      '4xs': '476px',
+      '3xs': '504px',
+      '2xs': '532px',
+      xs: '560px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+      '3xl': '1920px',
+      '4xl': '2560px',
+      '5xl': '3200px',
+      '6xl': '3840px',
+      '7xl': '4480px',
+      '8xl': '5120px',
+      '9xl': '5760px',
+      '10xl': '6400px',
+      '11xl': '7040px',
+      '12xl': '7680px',
+      '13xl': '8320px',
+      '14xl': '8960px',
+      '15xl': '9600px',
+      '16xl': '10240px',
+      '17xl': '10880px',
+      '18xl': '11520px',
+      '19xl': '12160px',
+      '20xl': '12800px',
+      'jiophone2': '240px', 
+      'galaxyfold': '280px', 
+      'iphone4': '320px',
+      'iphone5': '320px',   // iPhone 5/SE
+      'iphone5se': '320px',
+      'lumia520': '320px', 
+      'iphonese': '320px', 
+      'nokian9': '360px',
+      'galaxys3': '360px',
+      'galaxys5': '360px', 
+      'galaxys8': '360px', 
+      'galaxynote2': '360px', 
+      'galaxynote3': '360px', 
+      'lumia950': '360px', 
+      'motog4': '360px',
+      'nexus5': '360px', 
+      'blackberryz30': '360px', 
+      'iphone678': '375px', 
+      'iphonex': '375px',
+      'iphone678': '375px', // iPhone 6/7/8
+      'iphonex': '375px', // iPhone X 
+      'iphone12pro': '390px',
+      'pixel5': '393px', 
+      'nexus4': '384px', 
+      'lgoptimusl70': '384px', 
+      'iphone678plus': '414px',
+      'iphonexr': '414px',
+      'pixel2': '411px', 
+      'pixel2xl': '411px', 
+      'pixel3xl': '411px',
+      'pixel4': '411px',
+      'galaxys9plus': '412px', 
+      'galaxys8plus': '412px',
+      'galaxys20ultra': '412px', 
+      'galaxya51': '412px',
+      'nexus5x': '412px', 
+      'nexus6': '412px', 
+      'nexus6p': '412px',
+      'iphone678plus': '414px', // iPhone 6/7/8 Plus
+      'surface-duo': '540px',
+      'nexus7': '600px',
+      'blackberryplaybook': '600px',
+      'lumia550': '640px', 
+      'motogpower': '720px', 
+      'nesthub': '720px', 
+      'ipad': '768px', 
+      'ipadmini': '768px', 
+      'nexus10': '800px',
+      'galaxytabs4': '800px', 
+      'kindlefirehdx': '800px',
+      'ipadpro': '1024px', 
+      'surfacepro7': '1024px', 
+      'nesthubmax': '1280px', 
+      'laptop-mdpi': '1280px',
+      'hd': '1366px', // HD desktop
+      'laptop-hdpi': '1440px',
+      'fhd': '1920px', // Full HD desktop
+      'qhd': '2560px', // Quad HD desktop
+      '4k': '3840px', // 4K desktop
+    },
     // aspect
     aspectRatio: {
       auto: 'auto',
@@ -368,6 +540,15 @@ module.exports = {
     // break-inside: auto, avoid, avoid-page, column
     // box-decoration: slice, clone
     // box: border, content
+    /* display: 
+        block, inline-block, flex, inline-flex, table, inline-table, table-caption, 
+        table-cell, table-column, table-column-group, table-footer-group,
+        table-header-group, table-row-group, table-row, flow-root, grid, inline-grid,
+        contents, list-item, hidden */
+    
+    extend: {},
+  },
+  variants: {
     extend: {},
   },
   plugins: [],
